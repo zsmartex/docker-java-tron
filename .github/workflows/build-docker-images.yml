@@ -23,7 +23,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build --build-arg JAVA_TRON_VERSION=${JAVA_TRON_GIT_TAG} -t sunstake/java-tron:${JAVA_TRON_VERSION} .
+          docker build --build-arg JAVA_TRON_VERSION=${JAVA_TRON_GIT_TAG} -t zsmartex/tron-java:${JAVA_TRON_VERSION} .
           docker tag zsmartex/tron-java:${JAVA_TRON_VERSION} zsmartex/tron-java:latest
 
       - name: Push Docker Image
