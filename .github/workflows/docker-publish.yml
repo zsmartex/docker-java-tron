@@ -19,7 +19,7 @@ env:
   # github.repository as <account>/<repo>
   JAVA_TRON_GIT_TAG: GreatVoyage-v4.3.0
   JAVA_TRON_VERSION: 4.3.0
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: zsmartex/tron-java
 
 
 jobs:
