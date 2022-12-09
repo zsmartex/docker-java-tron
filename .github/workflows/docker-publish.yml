@@ -17,8 +17,8 @@ on:
 
 env:
   # github.repository as <account>/<repo>
-  JAVA_TRON_GIT_TAG: GreatVoyage-v4.5.2
-  JAVA_TRON_VERSION: 4.5.2
+  JAVA_TRON_GIT_TAG: GreatVoyage-v4.6.0
+  JAVA_TRON_VERSION: 4.6.0
   IMAGE_NAME: zsmartex/tron-java
 
 
