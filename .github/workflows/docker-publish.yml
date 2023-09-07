@@ -6,6 +6,7 @@ name: Build Docker Image and Publish
 # documentation.
 
 on:
+  workflow_dispatch: {}
   push:
     branches:
       - master
